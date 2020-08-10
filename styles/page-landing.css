@@ -7,7 +7,10 @@
 body {
     background-color: #42D69D;
     font-family: 'Poppins', sans-serif;
-    height: auto;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 #container {
@@ -45,4 +48,59 @@ body {
     font-weight: 600;
     padding: .5rem 1.5rem;
     border-radius: .7rem;
+
+    transition: background-color .1s;
+}
+
+#main-button:hover {
+    background-color: #7598cc;
+}
+
+@media (min-width: 1000px) {
+    #container {
+        width: 100%;
+        max-width: 1220px;
+        height: 60%;
+        margin: auto 20px;
+        
+        display: grid;
+        grid-template-columns:3fr 3fr;
+        grid-template-rows: repeat(2, 1fr);
+        grid-template-areas:
+        "title img"
+        "button img";
+        grid-column-gap: 20px;
+    }
+
+    #title {
+        grid-area: title;
+        align-self: end;
+        justify-self: center;
+        margin: 0;
+        margin-bottom: 50px;
+        font-size: 3.5rem;
+    }
+
+    #main-img {
+        grid-area: img;
+        align-self: center;
+        justify-self: center;
+        width: 600px;
+        margin: 0;
+    }
+
+    #main-button {
+        grid-area: button;
+        align-self: flex-start;
+        justify-self: center;
+        margin-top: 50px;
+
+        font-size: 2rem;
+        width: 250px;
+        height: 80px;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
 }
