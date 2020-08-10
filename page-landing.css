@@ -1,0 +1,83 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+:root {
+	font-size: 80%;
+}
+
+#container {
+	width: 100%;
+	height: 100%;
+}
+
+#page-landing {
+	background: #42D69D;
+	font: 700 3rem Poppins;
+	text-decoration: none;
+}
+
+.logo-container {
+	padding: 0 auto;
+	margin: 3rem auto;
+
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+
+	text-align: center;
+}
+
+#page-landing .logo-container h1 {
+	font-size: 3.6rem;
+}
+
+#page-landing .logo-container img {
+	width: 90%;
+	max-width: 16rem;
+}
+
+.product-item {
+	margin-top: 10rem;
+	width: 100%;
+	height: 100vh;
+}
+
+.product-item .box-container {
+	height: 20rem;
+}
+
+#acai,
+#queijo,
+#database {
+	background-color: #13E997;
+}
+
+.box-container {
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+
+	font-size: 1.6rem;
+
+}
+
+.box-container h2 {
+	margin: auto 2rem;
+}
+
+.box-container img {
+	margin: auto 2rem;
+	max-width: 11rem;
+}
+
+#database img {
+	width: 9rem;
+}
+
+
+
+
