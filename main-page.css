@@ -20,6 +20,8 @@ body {
 }
 
 #title {
+    width: 70%;
+    margin: 0 auto;
     color: #535461;
     font-weight: 700;
     font-size: 2.2rem;
