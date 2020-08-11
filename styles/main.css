@@ -1,0 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --p-color: #42D69D;
+    --white-color: #e2e2e2;
+    --black-color: #535461;
+    --button-color: #6C94CE;
+    --button-hover-color: #7598cc;
+
+    --p-font-family: 'Poppins', sans-serif;
+}

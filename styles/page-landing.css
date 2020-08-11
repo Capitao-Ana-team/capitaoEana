@@ -5,8 +5,8 @@
 }
 
 body {
-    background-color: #42D69D;
-    font-family: 'Poppins', sans-serif;
+    background-color: var(--p-color);
+    font-family: var(--p-font-family);
     height: 100vh;
     display: flex;
     align-items: center;
@@ -24,7 +24,7 @@ body {
 
 #title {
     margin: 0 auto;
-    color: #535461;
+    color: var(--black-color);
     font-weight: 700;
     font-size: 2.2rem;
     text-align: center;
@@ -32,7 +32,7 @@ body {
 
 #main-img {
     width: 90%;
-    max-width: 700px;
+    max-width: 600px;
     margin: 3rem auto;
 }
 
@@ -40,8 +40,8 @@ body {
     width: 70%;
     max-width: 620px;
     text-align: center;
-    background-color: #6C94CE;
-    color: #535461;
+    background-color: var(--button-color);
+    color: var(--black-color);
     text-decoration: none;
     font-size: 1.5rem;
     font-weight: 600;
@@ -52,7 +52,7 @@ body {
 }
 
 #main-button:hover {
-    background-color: #7598cc;
+    background-color: var(--button-hover-color);
 }
 
 @media (min-width: 1000px) {
