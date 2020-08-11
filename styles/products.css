@@ -14,6 +14,9 @@ header {
     align-items: center;
 
     position: fixed;
+    z-index: 2;
+
+    border-bottom: 2px var(--black-color) solid;
 }
 
 #header-container {
