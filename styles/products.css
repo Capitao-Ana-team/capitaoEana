@@ -1,0 +1,25 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-size: 60%;
+}
+
+body {
+    background: #42D69D;
+    font: 500 2rem Poppins;
+
+}
+
+#container {
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+
