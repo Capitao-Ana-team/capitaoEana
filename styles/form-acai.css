@@ -1,0 +1,33 @@
+body {
+    background-color: var(--white-color);
+    font-family: var(--p-font-family);
+
+    height: auto;
+}
+
+#form-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    font-size: 1.1rem;
+
+    padding: 7rem 2rem 3.5rem;
+}
+
+#form-section fieldset {
+    border: 0;
+}
+
+.forms-title {
+    font-size: 1.4rem;
+    font-weight: 600;
+    margin-bottom: 1.6rem;
+}
+
+/* /// DESKTOP VERSION \\\ */
+
+@media (min-width: 700px) {
+
+}
