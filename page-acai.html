@@ -25,16 +25,21 @@
 
     <div class="acai-section"> 
 
-        <div class="input" id="client-name">
-
+        <div class="input-block" id="client-name">
+            <label for="name">Nome do cliente</label>
+            <input type="text" id="name" required>
         </div>
 
-        <div class="input" id="amount">
-
+        <div class="input-block" id="amount">
+            <label for="quantidade">Quantidade</label>
+            <input type="number" id="quantidade" required">
         </div>
 
-        <div class="input" id="comments">
+        <div class="textarea-block">
+            <label for="detalhes">Comentários</label>
+            <textarea name="comments" id="comments" required>
 
+            </textarea>
         </div>
 
         <div id="box-result">
