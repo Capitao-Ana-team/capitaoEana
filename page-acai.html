@@ -26,24 +26,30 @@
     <div class="acai-section"> 
 
         <div class="input-block" id="client-name">
-            <label for="name">Nome do cliente</label>
+            <label for="name">Nome do cliente</label> <!--Nome do cliente da entrega-->
             <input type="text" id="name" required>
         </div>
 
         <div class="input-block" id="amount">
-            <label for="quantidade">Quantidade</label>
+            <label for="quantidade">Quantidade</label> <!-- Quantidade de potes que serão enviados-->
             <input type="number" id="quantidade" required">
         </div>
 
         <div class="textarea-block">
-            <label for="detalhes">Comentários</label>
+            <label for="detalhes">Comentários</label> <!--Observações e comentários, endereço entre outros-->
             <textarea name="comments" id="comments" required>
 
             </textarea>
         </div>
 
-        <div id="box-result">
+        <div class="buttons">
+            <p id="result-button">Adicionar</p>
+        </div>
 
+        <div id="result-box"> <!-- Caixa dos resultados: Todos as "categorias" adicionadas e o valor total-->
+            <div>
+                <p>(Aqui apareceram os resultados do pedido)</p>
+            </div>
         </div>
 
 
