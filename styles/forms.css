@@ -28,6 +28,25 @@
     font-size: .8rem;
 }
 
+.box {
+    display: grid;
+    grid-template-rows: repeat(2, 40vh);
+    grid-template-columns: 30vw 70vw;
+    grid-template-areas:
+    "value amount";
+    grid-gap: 20px;
+}
+
+#value {
+    grid-area: value;
+    width: 30%;
+}
+
+#amount {
+    grid-area: amount;
+    width: 60%;
+}
+
 #comments {
     height: 150px;
     padding-top: 1rem;
